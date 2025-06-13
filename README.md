@@ -32,7 +32,7 @@
 ### 视频抽帧
 * 在命令行中运行：
 ```bash
-ffmpeg -i [input_video_path] -r [fps] [output_frame_path]/frame_%04d.jpg
+ffmpeg -i [input_video_path] -r [fps] [output_frame_path]/frame_%05d.jpg
 ```
 * 其中[input_video_path]为原始视频文件路径，[fps]为设定的抽帧帧率（如 30fps），[output_frame_path]为输出图像保存路径。
 ### 点云文件生成
